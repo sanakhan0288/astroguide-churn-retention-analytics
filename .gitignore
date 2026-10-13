@@ -32,3 +32,10 @@ __pycache__/
 # Database temporary locks
 *.db-journal
 *.db-wal
+
+# Large Generated Data Files (prevent exceeding GitHub 100MB file limit)
+# All datasets can be deterministically reproduced via `python src/generate_data.py`
+data/raw/*.csv
+data/processed/*.csv
+*.sqlite
+*.db
