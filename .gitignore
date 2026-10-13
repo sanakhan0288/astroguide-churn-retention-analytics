@@ -1,0 +1,34 @@
+# Python Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE & Editor files
+.idea/
+*.swp
+*.swo
+
+# Environment Variables & Secrets
+.env
+*.local
+
+# Database temporary locks
+*.db-journal
+*.db-wal
