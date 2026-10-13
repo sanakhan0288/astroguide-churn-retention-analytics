@@ -39,3 +39,4 @@ data/raw/*.csv
 data/processed/*.csv
 *.sqlite
 *.db
+*.pkl
